@@ -1,0 +1,8 @@
+skills/
+runs/
+judge/
+env.md
+tasks.json
+holdout.json
+*.log
+__pycache__/
