@@ -6,7 +6,7 @@ It is a rewrite of Nick Beaird's [`ambition`](https://www.nickbeaird.com/ambitio
 
 ## Why a rewrite
 
-We tested both public versions, Nick's `ambition` and RoboNuggets' [`be-ambitious`](https://github.com/robonuggets/be-ambitious), on nine real tasks from our own week of work, against the same agent with no skill. Two models from other families judged the answers blind. On the six tasks we started with, the original skills did no better than no skill at all (`ambition` 5.64, no skill 5.67, `be-ambitious` 4.92). They found good ideas, but buried them, inflated small tasks and adopted every upgrade at once. On three tasks added later, `ambition` did beat no skill clearly, and `be-ambitious` came last in every round.
+I tested both public versions, Nick's `ambition` and RoboNuggets' [`be-ambitious`](https://github.com/robonuggets/be-ambitious), on nine real tasks from my own week of work, against the same agent with no skill. Two models from other families judged the answers blind. On the six tasks I started with, the original skills did no better than no skill at all (`ambition` 5.64, no skill 5.67, `be-ambitious` 4.92). They found good ideas, but buried them, inflated small tasks and adopted every upgrade at once. On three tasks added later, `ambition` did beat no skill clearly, and `be-ambitious` came last in every round.
 
 This version keeps Felix's method and changes what the agent prints:
 
@@ -60,5 +60,3 @@ The harness in [`eval/`](eval/) runs any set of skills against a no-skill contro
 - Original skill: Nick Beaird, [`ambition`](https://github.com/Nickanbe/ambition) (MIT). His own eval, which executes briefs against fixtures, is in that repo.
 - Compared: RoboNuggets, [`be-ambitious`](https://github.com/robonuggets/be-ambitious) (MIT).
 - This version: Tim Hagebols. MIT, see [LICENSE](LICENSE).
-
-Not made or endorsed by Felix, Nick, RoboNuggets or Anthropic.

@@ -2,7 +2,7 @@
 
 ## Question
 
-Does an "ambition" skill make an agent's answer to a real work task better than the same agent with no skill? And can we make one that does better than the two public versions?
+Does an "ambition" skill make an agent's answer to a real work task better than the same agent with no skill? And can I make one that does better than the two public versions?
 
 ## Arms
 
