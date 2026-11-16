@@ -35,7 +35,13 @@ This version scored higher than `ambition` on all 9 tasks (mean +1.1, 95% interv
 
 ## Install
 
-Claude Code:
+Claude Code, as a plugin:
+
+```bash
+claude plugin install ambition --marketplace Kompas/ribbon
+```
+
+The skill is then listed as `ambition:ambition`. Or as a single file:
 
 ```bash
 mkdir -p ~/.claude/skills/ambition
@@ -49,6 +55,10 @@ Then ask for it the way you would ask anyway:
 ```
 /ambition stop 1 in 6 jobs from getting lost in large batches
 ```
+
+## Carrying out the brief
+
+[dirigent](https://github.com/Kompas/dirigent) runs a large task with Fable 5.2 as planner and reviewer and cheaper models as workers. Its question round offers 1 ambition upgrade.
 
 ## Run the eval on your own tasks
 
